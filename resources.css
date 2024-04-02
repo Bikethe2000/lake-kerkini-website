@@ -1,0 +1,22 @@
+.resource-list,
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-list li,
+.article-list li{
+    margin-bottom: 10px;
+}
+
+.resource-list li a,
+.article-list li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resource-list li a:hover,
+.article-list li a:hover {
+    color: #0056b3;
+}
